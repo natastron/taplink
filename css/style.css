@@ -11,7 +11,12 @@ body{
   border-radius: 20px;
   box-shadow: 0px 0px 30px 0px rgba(136, 136, 136, 0.25);
   background: rgba(250, 250, 250, 1);
+  overflow: hidden;/* скрываем все, что выходит за пределы блока, чтобы шапка не выступала за края страницы, скручиваем верхние углы*/
   
+}
+.container{
+  max-width: 300px;
+  margin: auto;
 }
 .header{
   color: #A55B94;
@@ -27,6 +32,42 @@ font-style: Medium;
 font-size: 20px;
 font-weight: 500;
 line-height: 24px;
-letter-spacing: 0%;
+letter-spacing: 0%;/**/
 text-align: center;
+}
+.user{
+  text-align: center;/* выравниваем содержимое по центру */
+border-radius: 20px;
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+background: rgba(255, 255, 255, 1);
+margin-top: -82px;/* отодвигаем блок вверх на 82 пикселя, чтобы он перекрывал часть шапки сднлать с помощью линейки в фигме Shift+R*/
+padding-bottom: 8px;
+}
+.user-avatar{
+border: 4px solid rgba(255, 255, 255, 1);
+background:;
+object-fit: cover; /* сохраняем пропорции изображения и обрезаем его по краям, если оно не помещается в заданные размеры */
+border-radius: 50%;
+margin-top: -31px;
+}
+.user-name{
+  margin-top: 5px;
+  margin-bottom: 6px;
+  color: rgba(0, 0, 0, 1);
+  font-family: Lateef;
+  font-style: Regular;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0%;
+}
+.user-profession{
+  margin: 0;
+color: rgba(165, 91, 148, 1);
+font-family: Lateef;
+font-style: Bold;
+font-size: 13px;
+font-weight: 700;
+line-height: 13px;
+letter-spacing: 0%;
 }
