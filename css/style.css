@@ -76,4 +76,34 @@ letter-spacing: 0%;
   border-radius: 20px;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
   background: rgba(255, 255, 255, 1);
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 20px;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+  margin: auto;
+  gap: 10px;
+}
+.button{
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 20px;
+
+}
+.button.vk{
+  background: #4C75A3;
+}
+.button.telegram{
+  background: #0088CC;
+}
+
+.button.yt{
+  background: #FF0000;
 }
